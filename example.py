@@ -33,6 +33,8 @@ Use this as an example of how to work through the steps in the lesson.
 def find_largest_number(list_of_nums):
     largest_num = list_of_nums[0]
     for i in list_of_nums:
+        print(i)
+        # if i > largest_num:
         if list_of_nums[i] > largest_num:
             largest_num = list_of_nums[i]
     return largest_num
